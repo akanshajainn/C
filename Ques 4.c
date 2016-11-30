@@ -1,4 +1,4 @@
-Ques 4.  Write a program to create a structure and a union which have name and age. then find and print the size of structure and union.
+//Ques 4.  Write a program to create a structure and a union which have name and age. then find and print the size of structure and union.
 #include<stdio.h>
  struct trial
  {

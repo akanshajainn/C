@@ -7,13 +7,15 @@ int main()
 FILE *f1,*f2;
 char ch;
 f1=fopen("file1.dat","r");
-f2=fopen("file2.dat","a+");
+f2=fopen("file2.dat","a");
 do
-{ch=getc(f1);
-  printf("%c",ch);
-fprintf(f2,"%",ch);
+{ch=fgetc(f1);
+  //printf("%c",ch);
+//fprintf(f2,"%c",ch);
+fputc(ch,f2);
 
-}while((ch != EOF));
+}while(!feof(f1));
+//while(ch!=EOF);
 fclose(f1);
 fclose(f2);
 }

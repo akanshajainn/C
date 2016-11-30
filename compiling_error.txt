@@ -1,43 +1,37 @@
-/Users/arjuns/Working_Directory/C/Ques 3.c:23:3: error: use of undeclared identifier 'arr'
-  arr[i] = struct Books;
-  ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:23:12: error: expected expression
-  arr[i] = struct Books;
-           ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:31:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:31:12: error: use of undeclared identifier 'b1'
    strcpy( b1.title, "C Programming");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:31:12: error: use of undeclared identifier 'b1'
-/Users/arjuns/Working_Directory/C/Ques 3.c:32:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:31:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:32:12: error: use of undeclared identifier 'b1'
    strcpy( b1.author, "Nuha Ali");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:32:12: error: use of undeclared identifier 'b1'
-/Users/arjuns/Working_Directory/C/Ques 3.c:33:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:32:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:33:12: error: use of undeclared identifier 'b1'
    strcpy( b1.subject, "C Programming Tutorial");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:33:12: error: use of undeclared identifier 'b1'
-/Users/arjuns/Working_Directory/C/Ques 3.c:34:4: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:33:12: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:34:4: error: use of undeclared identifier 'b1'
    b1.book_id = 6495407;
    ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:37:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:37:12: error: use of undeclared identifier 'b2'
    strcpy( b2.title, "Telecom Billing");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:37:12: error: use of undeclared identifier 'b2'
-/Users/arjuns/Working_Directory/C/Ques 3.c:38:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:37:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:38:12: error: use of undeclared identifier 'b2'
    strcpy( b2.author, "Zara Ali");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:38:12: error: use of undeclared identifier 'b2'
-/Users/arjuns/Working_Directory/C/Ques 3.c:39:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:38:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:39:12: error: use of undeclared identifier 'b2'
    strcpy( b2.subject, "Telecom Billing Tutorial");
            ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:39:12: error: use of undeclared identifier 'b2'
-/Users/arjuns/Working_Directory/C/Ques 3.c:40:4: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:39:12: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:40:4: error: use of undeclared identifier 'b2'
    b2.book_id = 6495700;
    ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:43:15: error: use of undeclared identifier 'b1'
+/Users/akanshajain/WORK/C/Ques 3.c:43:15: error: use of undeclared identifier 'b1'
    printBook( b1 );
               ^
-/Users/arjuns/Working_Directory/C/Ques 3.c:47:15: error: use of undeclared identifier 'b2'
+/Users/akanshajain/WORK/C/Ques 3.c:47:15: error: use of undeclared identifier 'b2'
    printBook( b2 );
               ^
-18 errors generated.
+16 errors generated.

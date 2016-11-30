@@ -4,5 +4,7 @@
 
 int main(int argc, char const *argv[]) {
   /* code */
+  [p]
+  
   return 0;
 }

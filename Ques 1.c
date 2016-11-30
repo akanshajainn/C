@@ -2,13 +2,17 @@
 
 #include "stdio.h"
 
-int main(int argc, char const *argv[]) {
-  int factorial=1, i=0, count=0;
-  printf("Enter number to calculate factorial and generate Fibonacci series.\n");
-  scanf("%d",&count);
-  for (i = 1; i <= count; i++) {
-    factorial = i*factorial;
+int fact(unsigned int i){
+  if(i<=1){
+    return 1;
   }
-  printf("Factorial is  = %d\n",factorial);
+  return i * fact(i-1);
+}
+
+int main(int argc, char const *argv[]) {
+  int i;
+  printf("Enter number to calculate factorial and generate Fibonacci series.\n");
+  scanf("%d",&i);
+  printf("Factorial is  = %d\n",fact(i));
   return 0;
 }

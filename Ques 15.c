@@ -1,7 +1,7 @@
 // 15.  Write a C program to read a one dimensional array, print sum of all elements along with inputted array elements using Dynamic Memory Allocation also deallocate after use.
 
 #include "stdio.h"
-#include "malloc.h"
+// #include "malloc.h"
 
 int main(int argc, char const *argv[]) {
         int *a,n,i,sum=0;

@@ -19,9 +19,9 @@ printf("enter number of items to be added\n");
 scanf("%d",&count);
 // Declaring count number of books
 
-for (i = 1; i <= count; i++) {
-  arr[i] = struct Books;
-}
+//for (i = 1; i <= count; i++) {
+//  arr[i] = struct Books;
+//}
   //  struct Books b1;        /* Declare Book1 of type Book */
   //  struct Books b2;        /* Declare Book2 of type Book */
 // for (i = 0; i <= count; i++) {

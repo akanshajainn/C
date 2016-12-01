@@ -1,36 +1,43 @@
-//8. Write a program to sort names in alphabetic order using array of pointers.
-#include <stdio.h>
-//#include<malloc.h>
-#include<string.h>
-#define MAX 20
-int main ()
-{
-   char *names[MAX],*temp=NULL;
-   int i,j,n,flag=1;
-   printf("Enter the number of strings: ");
-   scanf("%d",&n);
-   printf("Enter the strings:\n");
-   for(i=0;i<n;i++)
-   {
-   names[i]=(char*)calloc(MAX,sizeof(char));
-   scanf("%s",&names[i]);
-   }
-   for(i=0;i<n;i++)
-   {
-    flag=0;
-    for(j=0;j<n-i;j++)
-    {
-      if(strcmp(names[j],names[j+1])>0)
-      {
-        temp=names[j];
-          names[j]=names[j+1];
-          names[j+1]=temp;
+/*
+8. Write�a�program�to�sort�names�in�alphabetic�order�using�array�of�pointers.
+*/
 
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+void alphabet(int n,char *s[])
+{
+    int i,j;
+    char temp[20];
+    for(i=0;i<n-1;i++)
+    {
+    	for(j=i+1;j<n;j++)
+    	{
+    	  if(strcmp(s[i],s[j])>0)
+            {
+                strcpy(temp,s[j]);
+                strcpy(s[j],s[i]);
+                strcpy(s[i],temp);
+            }
+		}
+	}
+    return;
+}
+int main()
+{
+    char *s[20];
+    int i,n=0;
+    printf("Enter number of Strings : \n");
+    scanf("%d",&n);
+    printf("Enter the strings:\n");
+    for(i=0;i<n;i++)
+    {
+        s[i]=(char *)malloc(20*sizeof(char));
+        scanf("%s",s[i]);
     }
-    }
-   }
-   printf("\nStrings in sorted order:\n");
-   for(j=0;j<n;j++)
-      printf("%s\n",names[j]);
-   return 0;
+    alphabet(n,s);
+    printf("\nSorted list :\n");
+    for(i=0;i<n;i++)
+        printf(" %s\n",s[i]);
+
 }

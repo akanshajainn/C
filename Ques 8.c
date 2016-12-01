@@ -1,43 +1,36 @@
 /*
    8. Write�a�program�to�sort�names�in�alphabetic�order�using�array�of�pointers.
  */
-
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-void alphabet(int n,char *s[])
+ #include <stdio.h>
+ #include <conio.h>
+ #include <string.h>
+main()
 {
-        int i,j;
-        char temp[20];
-        for(i=0; i<n-1; i++)
+        char name[40][100],temp[20];
+        int i,j,n;
+
+        printf("Enter the total number of names\n");
+
+        scanf("%d",&n);
+        printf("\nEnter the names one by one.....");
+        for(i=0; i<n; i++)
         {
-                for(j=i+1; j<n; j++)
+                scanf("%s",name[i]);
+        }
+        printf("\nNames in alphebetical order\n\n");
+        for(i=1; i<n; i++)
+        {
+                for(j=1; j<n; j++)
                 {
-                        if(strcmp(s[i],s[j])>0)
+                        if((strcmp(name[j-1],name[j]))>0)
                         {
-                                strcpy(temp,s[j]);
-                                strcpy(s[j],s[i]);
-                                strcpy(s[i],temp);
+                                strcpy(temp,name[j-1]);
+                                strcpy(name[j-1],name[j]);
+                                strcpy(name[j],temp);
                         }
                 }
         }
-        return;
-}
-int main()
-{
-        char *s[20];
-        int i,n=0;
-        printf("Enter number of Strings : \n");
-        scanf("%d",&n);
-        printf("Enter the strings:\n");
         for(i=0; i<n; i++)
-        {
-                s[i]=(char *)malloc(20*sizeof(char));
-                scanf("%s",s[i]);
-        }
-        alphabet(n,s);
-        printf("\nSorted list :\n");
-        for(i=0; i<n; i++)
-                printf(" %s\n",s[i]);
-
+                printf("\t%d)%s\n",i+1,name[i]);
+        getch();
 }

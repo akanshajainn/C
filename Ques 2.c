@@ -5,32 +5,32 @@ long factorial(int);
 
 int main()
 {
-   int i, n, c;
+        int i, n, c;
 
-   printf("Enter the number of rows you wish to see in pascal triangle\n");
-   scanf("%d",&n);
+        printf("Enter the number of rows you wish to see in pascal triangle\n");
+        scanf("%d",&n);
 
-   for (i = 0; i < n; i++)
-   {
-      for (c = 0; c <= (n - i - 2); c++)
-         printf(" ");
+        for (i = 0; i < n; i++)
+        {
+                for (c = 0; c <= (n - i - 2); c++)
+                        printf(" ");
 
-      for (c = 0 ; c <= i; c++)
-         printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
+                for (c = 0; c <= i; c++)
+                        printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
 
-      printf("\n");
-   }
+                printf("\n");
+        }
 
-   return 0;
+        return 0;
 }
 
 long factorial(int n)
 {
-   int c;
-   long result = 1;
+        int c;
+        long result = 1;
 
-   for (c = 1; c <= n; c++)
-         result = result*c;
+        for (c = 1; c <= n; c++)
+                result = result*c;
 
-   return result;
+        return result;
 }

@@ -1,27 +1,29 @@
-1.     Write a program to find factorial of a number and generate Fibonacci series using recursion
+1. Write a program to find factorial of a number and generate Fibonacci series using recursion
 
-2.     Write a program to generate a Pascal’s triangle
+2. Write a program to generate a Pascal’s triangle
 
-3.     Write a program to create a inventory program to accept product name, unit price and quantity and to display the details with actual value of N products using structure and function
+3. Write a program to create a inventory program to accept product name, unit price and quantity and to display the details with actual value of N products using structure and function
 
-4.     Write a program to create a structure and a union which have name and age. then find and print the size of structure and union
+4. Write a program to create a structure and a union which have name and age. then find and print the size of structure and union
 
-5.     Write a menu driven program to compare, concatenate ,copy 2 strings
+5. Write a menu driven program to compare, concatenate ,copy 2 strings
 
-6.     Write a program to append the contents of one file at the end of other.
+6. Write a program to append the contents of one file at the end of other.
 
-7.      Write a program to swap 2 numbers using pointer
+7. Write a program to swap 2 numbers using pointer
 
-8.     Write a program to sort names in alphabetic order using array of pointers  9.     Write a program to search an element in array using binary search
+8. Write a program to sort names in alphabetic order using array of pointers  
 
-10.   Write a program to sort n numbers using insertion sort
+9. Write a program to search an element in array using binary search
 
-11.   Write a program to sort n numbers using quick sort
+10. Write a program to sort n numbers using insertion sort
 
-12.   write a program to read a file and display its contents on the screen
+11. Write a program to sort n numbers using quick sort
 
-13.   write a program that will read a file and count how many characters , spaces, tabs and newlines are present in it
+12. write a program to read a file and display its contents on the screen
 
-14.   Suppose a file contains student’s records with each record containing name and age of a student. Write a program to read these records and display them.
+13. write a program that will read a file and count how many characters , spaces, tabs and newlines are present in it
 
-15.  Write a C program to read a one dimensional array, print sum of all elements along with inputted array elements using Dynamic Memory Allocation also deallocate after use.
+14. Suppose a file contains student’s records with each record containing name and age of a student. Write a program to read these records and display them.
+
+15. Write a C program to read a one dimensional array, print sum of all elements along with inputted array elements using Dynamic Memory Allocation also deallocate after use.
